@@ -1,0 +1,6 @@
+framework module Pods_VideoList {
+  umbrella header "Pods-VideoList-umbrella.h"
+
+  export *
+  module * { export * }
+}

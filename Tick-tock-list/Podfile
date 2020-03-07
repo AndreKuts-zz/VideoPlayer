@@ -1,20 +1,14 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'Tick-tock-list' do
-  # Comment the next line if you don't want to use dynamic frameworks
+use_frameworks!
+
+target 'VideoList' do
   use_frameworks!
-
-
-pod 'Moya'
-
-pod 'RxSwift'
-pod 'RxCocoa'
-pod 'RxDataSources'
-
-pod 'Texture'
-pod 'Kingfisher'
-
-pod 'RxCocoa-Texture'
-
+  pod 'Moya'
+  pod 'Result'
+  pod 'RxDataSources'
+  pod 'Texture'
+  pod 'Kingfisher'
+  pod 'RxCocoa-Texture'
 end

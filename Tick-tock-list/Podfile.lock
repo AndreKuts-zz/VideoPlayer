@@ -1,14 +1,13 @@
 PODS:
-  - Alamofire (4.9.1)
+  - Alamofire (5.0.2)
   - Differentiator (4.0.1)
-  - Kingfisher (5.12.0):
-    - Kingfisher/Core (= 5.12.0)
-  - Kingfisher/Core (5.12.0)
-  - Moya (13.0.1):
-    - Moya/Core (= 13.0.1)
-  - Moya/Core (13.0.1):
-    - Alamofire (~> 4.1)
-    - Result (~> 4.1)
+  - Kingfisher (5.13.2):
+    - Kingfisher/Core (= 5.13.2)
+  - Kingfisher/Core (5.13.2)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
   - PINCache (3.0.1-beta.6):
     - PINCache/Arc-exception-safe (= 3.0.1-beta.6)
     - PINCache/Core (= 3.0.1-beta.6)
@@ -24,8 +23,8 @@ PODS:
   - PINRemoteImage/PINCache (3.0.0-beta.13):
     - PINCache (= 3.0.1-beta.6)
     - PINRemoteImage/Core
-  - Result (4.1.0)
-  - RxCocoa (5.0.1):
+  - Result (5.0.0)
+  - RxCocoa (5.1.0):
     - RxRelay (~> 5)
     - RxSwift (~> 5)
   - RxCocoa-Texture (3.1.0):
@@ -36,9 +35,9 @@ PODS:
     - Differentiator (~> 4.0)
     - RxCocoa (~> 5.0)
     - RxSwift (~> 5.0)
-  - RxRelay (5.0.1):
+  - RxRelay (5.1.0):
     - RxSwift (~> 5)
-  - RxSwift (5.0.1)
+  - RxSwift (5.1.0)
   - Texture (2.8.1):
     - Texture/AssetsLibrary (= 2.8.1)
     - Texture/Core (= 2.8.1)
@@ -63,10 +62,9 @@ PODS:
 DEPENDENCIES:
   - Kingfisher
   - Moya
-  - RxCocoa
+  - Result
   - RxCocoa-Texture
   - RxDataSources
-  - RxSwift
   - Texture
 
 SPEC REPOS:
@@ -87,21 +85,21 @@ SPEC REPOS:
     - Texture
 
 SPEC CHECKSUMS:
-  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Alamofire: 3ba7a4db18b4f62c4a1c0e1cb39d7f3d52e10ada
   Differentiator: 886080237d9f87f322641dedbc5be257061b0602
-  Kingfisher: dc6e0f53bb5b12c3e75bedb0e01bbd7a640eea69
-  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  Kingfisher: d342c8354c10c3d85a27d6d4c42c41285924b898
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
   PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
   PINOperation: 24b774353ca248fcf87d67b2d61eef42087c125a
   PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
-  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
-  RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
+  Result: ed341d2f236af425b803e690e9bd8fd0a0cb7c5a
+  RxCocoa: 13d2a4d7546a34b8ececae8c281e4ea1dbb94f2b
   RxCocoa-Texture: 90abb54f5d153746fe414f4d04e6d2e6cf91d70e
   RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
-  RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
-  RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
+  RxRelay: a168bd6caf712d00c676ac344e9295afc93b418e
+  RxSwift: ad5874f24bb0dbffd1e9bb8443604e3578796c7a
   Texture: 8ecf6984065a1e54f06bf97b349ecca28582acd7
 
-PODFILE CHECKSUM: 59fb0e0f338c4fb3e77f8a6e56a1c90c10cb6091
+PODFILE CHECKSUM: 2bfe15792399fa19d2303a091e4006a41645fed7
 
 COCOAPODS: 1.8.4
